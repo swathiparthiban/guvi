@@ -8,7 +8,7 @@ public class Vowels {
 			System.out.println("vowels");
 			
 		}
-		else if((ch>='a'||ch<='z')){
+		else if((ch>='a'&&ch<='z')){
 			System.out.println("consonants");
 		}
 		else{
