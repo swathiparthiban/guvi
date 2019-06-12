@@ -6,7 +6,7 @@ public class CamelCase {
 		String s=scan.nextLine();
 		for(String str:s.split(" ")){
 			String t=str.substring(0,1);
-			System.out.print(t.toUpperCase()+str.substring(1)+" ");
+			System.out.print(t.toUpperCase()+str.substring(1).toLowercase()+" ");
 		}
 	}
 
