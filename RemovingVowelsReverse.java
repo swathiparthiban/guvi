@@ -3,7 +3,10 @@ import java.util.*;
 public class RemovingVowelsReverse {
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
+		int n=scan.nextInt();
+		
 		String s=scan.next();
+		if(s.length()<=n){
 		char[] ch=s.toCharArray();
 		char a=0;
 		String str="";
@@ -20,8 +23,12 @@ public class RemovingVowelsReverse {
 			System.out.print(c[i]);
 
 		}
+		}
 	}
 }
+
+
+
 
 
 
